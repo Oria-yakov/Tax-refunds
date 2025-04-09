@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>בדיקת זכאות להחזר מס</title>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- (4.1) חלק עליון -->
+  <header class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>יכול להיות שמגיע לך כסף מהמדינה</h1>
+        <h2>בדוק את זכאותך להחזר מס בלחיצת כפתור – בלי התחייבות, בלי עלות</p>
+          <a href="#form" class="cta-button">בדיקת זכאות עכשיו</a>
+      </div>
+      <img src="happy-guy.png" alt="אדם שמח" class="hero-image">
+    </div>
+  </header>
+
+  
+<!-- (4.2) מה זה החזר מס-->
+  <section class="info-card">
+    <h2>מה זה החזר מס?</h2>
+    <p>רוב השכירים זכאים להחזרי מס – אבל לא מודעים לזה.</p>
+    <p>מדובר בתהליך דיגיטלי פשוט שיכול להחזיר אליך אלפי שקלים.</p>
+  </section>
+  
+
+<!-- (4.3) למה לבחור בנו-->
+  <section class="why-us">
+    <h2>למה לבחור בנו?</h2>
+    <div class="why-us-columns">
+      
+      <div class="why-card" aria-label="תהליך דיגיטלי">
+        <div class="icon-circle" aria-hidden="true">💻</div>
+        <p>תהליך מקוון לחלוטין</p>
+      </div>
+  
+      <div class="why-card" aria-label="החזר כספי">
+        <div class="icon-circle" aria-hidden="true">💰</div>
+        <p>החזר ממוצע של 11,800 ש"ח</p>
+      </div>
+  
+      <div class="why-card" aria-label="לקוחות מרוצים">
+        <div class="icon-circle" aria-hidden="true">👥</div>
+        <p>ניסיון עם אלפי לקוחות</p>
+      </div>
+  
+      <div class="why-card" aria-label="שירות מקצועי">
+        <div class="icon-circle" aria-hidden="true">⭐</div>
+        <p>שירות מקצועי על ידי רואי חשבון</p>
+      </div>
+  
+    </div>
+  </section>
+  
+  
+  
+<!-- (4.4) טופס יצירת קשר -->
+  <section class="form-section" id="form">
+    <h2>השאר פרטים לבדיקה ראשונית</h2>
+    <input type="text" id="name" placeholder="שם מלא">
+    <input type="tel" id="phone" placeholder="טלפון">
+    <input type="email" id="email" placeholder="אימייל">
+
+    <select id="year-select" name="year">
+      <option value="">בחר שנה</option>
+      <option value="2024">2024</option>
+      <option value="2023">2023</option>
+      <option value="2022">2022</option>
+      <option value="2021">2021</option>
+      <option value="2020">2020</option>
+    </select>
+
+    <div class="checkbox-wrapper">
+      <input type="checkbox" id="agree">
+      <label for="agree">אני מאשר/ת קבלת מידע ופרסום לפי תנאי השימוש</label>
+    </div>
+
+    <button id="submit-btn" class="cta-button">שלח</button>
+    <div id="form-error" style="color: red; margin-top: 1rem;"></div>
+  </section>
+
+
+<!-- (4.5) שאלות נפוצות -->
+  <section class="faq">
+    <h2>שאלות נפוצות</h2>
+    <p><strong>כמה זמן זה לוקח?</strong> כמה ימים עד מספר שבועות – תלוי במקרה.</p>
+    <p><strong>כמה זה עולה?</strong> אין עלות לבדיקה. התשלום רק אם מתקבל החזר.</p>
+    <p><strong>מה צריך להכין?</strong> תלוש שכר, טופס 106, ת.ז ועוד לפי צורך.</p>
+  </section>
+
+
+<!-- (4.6) תחתית -->
+  <footer>
+    <p>
+      <a href="#contact">יצירת קשר</a> |
+      <a href="#privacy">מדיניות פרטיות</a> |
+      <a href="#terms">תנאי שימוש</a> |
+      <a href="https://wa.me/123456789" class="whatsapp-link" target="_blank">שלח הודעה בוואטסאפ</a>
+    </p>
+  </footer>
+  
+  <script src="index.js"></script>
+
+</body>
+</html>
